@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
             case  R.id.btn01 :
                 intent.setClass(this,FaceBookActivity.class);
                 break;
+            case  R.id.btn02 :
+                intent.setClass(this,BrunchAppActivity.class);
+                break;
         }
 
         startActivity(intent);
